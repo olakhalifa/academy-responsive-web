@@ -7,6 +7,20 @@
     border: 1px solid $main-colour;
     border-bottom-width: 0;
     padding: 18px;
+    position: relative;
+
+  .votes {
+    font-size: 50px;
+    line-height: 50px;
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+
+    @media screen and (min-width: 960px) {
+      top: 25px;
+    }
+  }
 
     &:last-child {
       border-bottom-width: 1px;
